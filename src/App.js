@@ -127,29 +127,29 @@ export default function App() {
         <footer>
           <ul>
             <li className="footerLink">
-              <a href="https://github.com/AnkitaBagale">
+              <a href="https://github.com/varnita619">
                 <i className="fab fa-github" aria-hidden="true"></i>
               </a>
             </li>
             <li className="footerLink">
-              <a href="https://twitter.com/AnkitaB1108">
+              <a href="https://twitter.com/home?lang=en">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li className="footerLink">
-              <a href="https://www.linkedin.com/in/ankita-bagale1108">
+              <a href="https://www.linkedin.com/in/varnita-makrariya-307177191/">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </li>
             <li className="footerLink">
-              <a href="https://ankitabagale-portfolio.netlify.app/">
+              <a href="https://varnitamakrariya.netlify.app/">
                 <i className="fas fa-briefcase"></i>
               </a>
             </li>
           </ul>
 
           <div className="legacyText">
-            © 2020 | ankitaB |{" "}
+            © 2021 | Made by VarnitaMakrariya |{" "}
             <a
               href="#alertBox"
               onClick={() => {
