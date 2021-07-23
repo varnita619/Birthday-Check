@@ -1,0 +1,126 @@
+:root {
+    /* --primary-color: rgb(0, 255, 255, 0.6); */
+    --primary-color: rgba(32, 240, 84, 0.6);
+    --secondary-color: #888888;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+  }
+  * {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titleOfPage {
+    background-color: var(--primary-color);
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 10px 5px var(--secondary-color);
+  }
+  .titleOfPage h1 {
+    margin-bottom: 0;
+  }
+  .titleOfPage a {
+    display: block;
+    color: black;
+    padding: 0.5rem 0 2rem;
+  }
+  
+  .section {
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 2px var(--secondary-color);
+  }
+  
+  #alertBox {
+    width: fit-content;
+    padding: 0 1rem;
+    margin: 1rem auto 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border: 1px solid #b91c1c;
+    box-shadow: 0px 0px 10px 2px var(--secondary-color);
+  }
+  
+  .notice {
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .label {
+    padding: 1rem 0rem 0.5rem;
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  input {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: none;
+    box-shadow: 0px 0px 10px 2px var(--secondary-color);
+  }
+  button {
+    display: block;
+    margin: 1rem auto;
+    border: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 1.1rem;
+  
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+  }
+  
+  .footerLink a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: black;
+  }
+  
+  footer {
+    box-shadow: 0px 0px 10px 2px var(--secondary-color);
+    padding: 0 0 1rem;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .legacyText {
+    font-size: 0.8rem;
+  }
+  
